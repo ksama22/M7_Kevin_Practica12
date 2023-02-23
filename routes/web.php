@@ -16,3 +16,19 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//En la ruta cliente carrega el view resources\views\cliente.blade.php
+Route::get('/cliente', function () {
+    return view('cliente');
+});
+
+//En la ruta cliente carrega el view resources\views\contable.blade.php
+Route::get('/contable', function () {
+    return view('contable');
+});
+
+//En la ruta cliente carrega el view resources\views\facturacion.blade.php
+Route::get('/facturacion', function () {
+    return view('facturacion');
+});
