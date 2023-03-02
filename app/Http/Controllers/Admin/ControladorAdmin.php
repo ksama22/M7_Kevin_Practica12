@@ -8,10 +8,10 @@ use Illuminate\Http\Request;
 class ControladorAdmin extends Controller
 {       
     //Funcio articulos que es crida en el admin.php
-    public function articulos(){
+    public function inicio(){
         //En la carpeta '/resources/views/Admin busca el 'mensajeAdmin'
         // I aplica el text a la variable 'text
-        return view('Admin.mensajeAdmin')->with(['text'=>'Benvinguts a articles']);
+        return view('Admin.home')->with(['text'=>'Benvinguts al Home']);
     }
 
     public function clientes(){

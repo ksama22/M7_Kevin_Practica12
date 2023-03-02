@@ -7,5 +7,10 @@
     </head>
     <body>
         Hello Kevin
+
+        <a href="<?= route('link_cliente')?>">Pagina Cliente</a>
+        <a href="<?= route('link_contabilidad')?>">Pagina Contabilidad</a>
+        <a href="<?= route('link_facturacion')?>">Pagina facturacion</a>
+
     </body>
 </html>
