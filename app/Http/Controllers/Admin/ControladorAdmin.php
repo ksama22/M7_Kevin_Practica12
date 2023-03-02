@@ -14,4 +14,21 @@ class ControladorAdmin extends Controller
         return view('Admin.mensajeAdmin')->with(['text'=>'Benvinguts a articles']);
     }
 
+    public function clientes(){
+        //En la carpeta '/resources/views/Admin busca el 'mensajeAdmin'
+        // I aplica el text a la variable 'text
+        return view('Admin.cliente')->with(['text'=>'Benvinguts a clientes']);
+    }
+    public function facturaciones(){
+        //En la carpeta '/resources/views/Admin busca el 'mensajeAdmin'
+        // I aplica el text a la variable 'text
+        return view('Admin.facturacion')->with(['text'=>'Benvinguts a facturaciones']);
+    }
+    public function contabilidades(){
+        //En la carpeta '/resources/views/Admin busca el 'mensajeAdmin'
+        // I aplica el text a la variable 'text
+        return view('Admin.contabilidad')->with(['text'=>'Benvinguts a contabilidades']);
+    }
+
+    
 }

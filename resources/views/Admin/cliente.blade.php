@@ -1,0 +1,1 @@
+El servidor CLIENTE diu: '"{{$text}}"
