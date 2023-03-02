@@ -1,0 +1,1 @@
+El servidor Contabilidad diu: '"{{$text}}"

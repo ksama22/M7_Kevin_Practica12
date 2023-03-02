@@ -1,0 +1,1 @@
+El servidor Facturacion diu: '"{{$text}}"
